@@ -3,7 +3,7 @@
     "id": "1",
     "judul": "Sanggar Beach",
     "kategori": "Pantai",
-    "kabupaten/kota": "Lampung Selatan",
+    "kabupaten": "Lampung Selatan",
     "hargaTiket": 45000,
     "jamBuka": "08.00-17.00"
   },
@@ -13,7 +13,7 @@
     "id": "2",
     "judul": "Rio by the Beach",
     "kategori": "Pantai",
-    "kabupaten/kota": "Lampung Selatan",
+    "kabupaten": "Lampung Selatan",
     "hargaTiket": 40000,
     "jamBuka": "07.00-20.00"
   },
@@ -23,7 +23,7 @@
     "id": "3",
     "judul": "Pantai Klara",
     "kategori": "Pantai",
-    "kabupaten/kota": "Pesawaran",
+    "kabupaten": "Pesawaran",
     "hargaTiket": 50000,
     "jamBuka": "07.00-19.00"
   },
@@ -32,7 +32,7 @@
     "id": "4",
     "judul": "Pantai Gigi Hiu",
     "kategori": "Pantai",
-    "kabupaten/kota": "Tanggamus",
+    "kabupaten": "Tanggamus",
     "hargaTiket": 40000,
     "jamBuka": "08.00-19.00"
   },
@@ -41,7 +41,7 @@
     "id": "5",
     "judul": "Kyokko Beach",
     "kategori": "Pantai",
-    "kabupaten/kota": "Pesawaran",
+    "kabupaten": "Pesawaran",
     "hargaTiket": 80000,
     "jamBuka": "08.00-17.00"
   },
@@ -50,7 +50,7 @@
     "id": "6",
     "judul": "Bukit Aslan",
     "kategori": "Bukit",
-    "kabupaten/kota": "Bandar Lampung",
+    "kabupaten": "Bandar Lampung",
     "hargaTiket": 45000,
     "jamBuka": "10.00-22.00"
   },
@@ -59,7 +59,7 @@
     "id": "7",
     "judul": "Puncak Mas",
     "kategori": "Bukit",
-    "kabupaten/kota": "Bandar Lampung",
+    "kabupaten": "Bandar Lampung",
     "hargaTiket": 25000,
     "jamBuka": "08.00-22.00"
   },
@@ -68,7 +68,7 @@
     "id": "8",
     "judul": "Bukit Sakura",
     "kategori": "Bukit",
-    "kabupaten/kota": "Bandar Lampung",
+    "kabupaten": "Bandar Lampung",
     "hargaTiket": 20000,
     "jamBuka": "08.00-21.00"
   },
@@ -77,7 +77,7 @@
     "id": "9",
     "judul": "Tropong Kota",
     "kategori": "Bukit",
-    "kabupaten/kota": "Bandar Lampung",
+    "kabupaten": "Bandar Lampung",
     "hargaTiket": 15000,
     "jamBuka": "08.00-21.00"
   },
@@ -86,7 +86,7 @@
     "id": "10",
     "judul": "Bukit Cendana",
     "kategori": "Bukit",
-    "kabupaten/kota": "Pesawaran",
+    "kabupaten": "Pesawaran",
     "hargaTiket": 10000,
     "jamBuka": "00.00-24.00"
   }
