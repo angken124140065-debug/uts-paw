@@ -25,9 +25,9 @@ export default function Tambah() {
 
   return (
     <form className="formulir" onSubmit={simpan} noValidate>
-      <h1>Tambah Destinasi Wisata</h1>
+      <h1>Tambah Destinasi Wisata Lampung</h1>
 
-      <label htmlFor="judul">Judul</label>
+      <label htmlFor="judul">Judul (Nama Destinasi)</label>
       <input id="judul" name="judul" value={form.judul} onChange={ubah} />
       {galat && <p role="alert">{galat}</p>}
 
@@ -35,13 +35,16 @@ export default function Tambah() {
       <select id="kategori" name="kategori" value={form.kategori} onChange={ubah}>
         <option>Pantai</option>
         <option>Bukit</option>
+        <option>Taman Wisata</option>
+        <option>Danau</option>
+        <option>Air Terjun</option>
       </select>
 
       <label htmlFor="kabupaten">Kabupaten</label>
       <input id="kabupaten" name="kabupaten" value={form.kabupaten} onChange={ubah} />
 
       <label htmlFor="hargaTiket">Harga Tiket</label>
-      <input id="hargaTiket" name="hargaTiket" type = "number" value={form.hargaTiket} onChange={ubah} />
+      <input id="hargaTiket" name="hargaTiket" value={form.hargaTiket} onChange={ubah} placeholder="40000" />
 
       <label htmlFor="jamBuka">Jam Buka</label>
       <input id="jamBuka" name="jamBuka" value={form.jamBuka} onChange={ubah} placeholder="08.00-17.00"/>

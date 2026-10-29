@@ -1,5 +1,6 @@
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
+import InfoWisata from '../components/InfoWisata.jsx'
 
 export default function Detail() {
   const { id } = useParams()
@@ -27,16 +28,7 @@ export default function Detail() {
   return (
     <section>
       <h1>{item.judul}</h1>
-      <dl>
-        <dt>Kategori</dt>
-        <dd>{item.kategori}</dd>
-        <dt>Kabupaten</dt>
-        <dd>{item.kabupaten}</dd>
-        <dt>Harga Tiket</dt>
-        <dd>{item.hargaTiket}</dd>
-        <dt>Jam Buka</dt>
-        <dd>{item.jamBuka}</dd>
-      </dl>
+      <InfoWisata item={item}/>
       <div className="aksi">
         <button type="button" onClick={konfirmasiHapus}>
           Hapus
